@@ -32,6 +32,7 @@ public class LoginController {
 		 else
 		 {
 			 System.out.println("Wrong password");
+			 System.out.println("Wrong password");
 			 response.sendRedirect("index.jsp");
 		 }
 	    }
